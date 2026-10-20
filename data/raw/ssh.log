@@ -1,0 +1,21 @@
+# Synthetic OpenSSH-style fixture. No real host was accessed.
+2026-10-19T09:00:00Z vpn-gateway sshd[2000]: Failed password for arun from 203.0.113.10 port 50000 ssh2
+2026-10-19T09:01:00Z vpn-gateway sshd[2001]: Failed password for arun from 203.0.113.10 port 50001 ssh2
+2026-10-19T09:02:00Z vpn-gateway sshd[2002]: Failed password for arun from 203.0.113.10 port 50002 ssh2
+2026-10-19T09:03:00Z vpn-gateway sshd[2003]: Failed password for arun from 203.0.113.10 port 50003 ssh2
+2026-10-19T09:04:00Z vpn-gateway sshd[2004]: Failed password for arun from 203.0.113.10 port 50004 ssh2
+2026-10-19T09:05:00Z vpn-gateway sshd[2005]: Accepted password for arun from 203.0.113.10 port 50005 ssh2
+2026-10-19T10:00:00Z identity-portal sshd[2006]: Failed password for arun from 198.51.100.20 port 50006 ssh2
+2026-10-19T10:01:00Z identity-portal sshd[2007]: Failed password for meena from 198.51.100.20 port 50007 ssh2
+2026-10-19T10:02:00Z identity-portal sshd[2008]: Failed password for kavin from 198.51.100.20 port 50008 ssh2
+2026-10-19T10:03:00Z identity-portal sshd[2009]: Failed password for divya from 198.51.100.20 port 50009 ssh2
+2026-10-19T11:00:00Z vpn-gateway sshd[2010]: Failed password for meena from 192.0.2.25 port 50010 ssh2
+2026-10-19T11:01:00Z vpn-gateway sshd[2011]: Accepted password for meena from 192.0.2.25 port 50011 ssh2
+2026-10-19T12:00:00Z vpn-gateway sshd[2012]: Failed password for kavin from 192.0.2.30 port 50012 ssh2
+2026-10-19T12:10:00Z vpn-gateway sshd[2013]: Failed password for kavin from 192.0.2.30 port 50013 ssh2
+2026-10-19T12:20:00Z vpn-gateway sshd[2014]: Failed password for kavin from 192.0.2.30 port 50014 ssh2
+2026-10-19T12:30:00Z vpn-gateway sshd[2015]: Failed password for kavin from 192.0.2.30 port 50015 ssh2
+2026-10-19T12:40:00Z vpn-gateway sshd[2016]: Failed password for kavin from 192.0.2.30 port 50016 ssh2
+2026-10-19T13:00:00Z identity-portal sshd[2017]: Accepted password for divya from 192.0.2.40 port 50017 ssh2
+2026-10-19T14:00:00Z vpn-gateway sshd[2100]: Connection closed by authenticating user arun 192.0.2.50 port 55000 [preauth]
+2026-10-19T14:01:00Z vpn-gateway systemd[1]: Started training service.
