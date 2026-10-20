@@ -1,0 +1,32 @@
+[
+  {
+    "id": "LAB-VULN-001",
+    "asset": "training-web",
+    "title": "Debug endpoint exposes a synthetic configuration value",
+    "severity": "high",
+    "internet_exposed": true,
+    "owner": "Application team",
+    "evidence": "Synthetic HTTP transcript: GET /debug returns DEMO_TOKEN=not-a-secret.",
+    "remediation": "Remove debug routes from deployed builds; check logs and rotate credentials if real exposure is verified."
+  },
+  {
+    "id": "LAB-VULN-002",
+    "asset": "internal-wiki",
+    "title": "Missing session cookie security attributes",
+    "severity": "medium",
+    "internet_exposed": false,
+    "owner": "Application team",
+    "evidence": "Synthetic Set-Cookie header lacks Secure and HttpOnly.",
+    "remediation": "Set Secure and HttpOnly; select a suitable SameSite policy and test login flows."
+  },
+  {
+    "id": "LAB-VULN-003",
+    "asset": "training-web",
+    "title": "Server response discloses an application build label",
+    "severity": "low",
+    "internet_exposed": true,
+    "owner": "Application team",
+    "evidence": "Synthetic response: X-App-Build: demo-1.0.",
+    "remediation": "Remove unnecessary build details from public response headers; retest responses."
+  }
+]

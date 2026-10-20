@@ -1,0 +1,72 @@
+[
+  {
+    "id": "AWS-S3-001",
+    "provider": "aws",
+    "kind": "s3",
+    "owner": "Storage team",
+    "block_public_acls": false,
+    "ignore_public_acls": false,
+    "block_public_policy": false,
+    "restrict_public_buckets": false
+  },
+  {
+    "id": "AWS-S3-002",
+    "provider": "aws",
+    "kind": "s3",
+    "owner": "Storage team",
+    "block_public_acls": true,
+    "ignore_public_acls": true,
+    "block_public_policy": true,
+    "restrict_public_buckets": true
+  },
+  {
+    "id": "AWS-SG-001",
+    "provider": "aws",
+    "kind": "security_group",
+    "owner": "Network team",
+    "inbound": [
+      {
+        "cidr": "0.0.0.0/0",
+        "protocol": "tcp",
+        "from_port": 22,
+        "to_port": 22
+      },
+      {
+        "cidr": "::/0",
+        "protocol": "tcp",
+        "from_port": 3389,
+        "to_port": 3389
+      }
+    ]
+  },
+  {
+    "id": "AWS-SG-002",
+    "provider": "aws",
+    "kind": "security_group",
+    "owner": "Network team",
+    "inbound": [
+      {
+        "cidr": "10.0.0.0/8",
+        "protocol": "tcp",
+        "from_port": 22,
+        "to_port": 22
+      }
+    ]
+  },
+  {
+    "id": "AZ-ST-001",
+    "provider": "azure",
+    "kind": "storage",
+    "owner": "Cloud platform team",
+    "allow_blob_public_access": true,
+    "secure_transfer_required": false
+  },
+  {
+    "id": "AZ-ST-002",
+    "provider": "azure",
+    "kind": "storage",
+    "owner": "Cloud platform team",
+    "allow_blob_public_access": false,
+    "secure_transfer_required": true
+  }
+]

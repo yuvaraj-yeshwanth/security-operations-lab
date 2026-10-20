@@ -1,0 +1,56 @@
+[
+  {
+    "id": "USR-001",
+    "enabled": true,
+    "employment_status": "terminated",
+    "privileged": false,
+    "mfa_enabled": true,
+    "last_login": "2026-10-18",
+    "owner": "HR / IAM team"
+  },
+  {
+    "id": "USR-002",
+    "enabled": true,
+    "employment_status": "active",
+    "privileged": true,
+    "mfa_enabled": false,
+    "last_login": "2026-10-19",
+    "owner": "IT administrator"
+  },
+  {
+    "id": "USR-003",
+    "enabled": true,
+    "employment_status": "active",
+    "privileged": false,
+    "mfa_enabled": true,
+    "last_login": "2026-06-01",
+    "owner": "Application owner"
+  },
+  {
+    "id": "USR-004",
+    "enabled": false,
+    "employment_status": "terminated",
+    "privileged": true,
+    "mfa_enabled": false,
+    "last_login": "2025-01-01",
+    "owner": "IAM team"
+  },
+  {
+    "id": "USR-005",
+    "enabled": true,
+    "employment_status": "service",
+    "privileged": true,
+    "mfa_enabled": false,
+    "last_login": "2025-01-01",
+    "owner": "Platform team"
+  },
+  {
+    "id": "USR-006",
+    "enabled": true,
+    "employment_status": "active",
+    "privileged": true,
+    "mfa_enabled": true,
+    "last_login": "2026-10-19",
+    "owner": "IT administrator"
+  }
+]
